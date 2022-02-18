@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <h1>Assignment 1</h1>
+    
+
+
+    <script>
+        //arithmatic operators
+        var x=791;
+        var y=452;
+        // Addition
+        console.log(x+y);
+        // Subtraction
+        console.log(x-y);
+        // Multiplication
+        console.log(x*y);
+        // Divide
+        console.log(x/y);
+        // Remainder
+        console.log(x%y);
+
+        //assignment operators
+        var a=x+y;
+        var b=x-y;
+        var c=x*y;
+        var d=x/y; 
+        //x+y+100
+        console.log(a+=100);
+        //x-y-100
+        console.log(b-=100);
+        //(x/y)*100
+        console.log(d*=100);
+        //(x*y)/100
+        console.log(c/=100);
+        //remainder of (x-y-100)/100
+        console.log(a%=100);
+
+        //comparison / relational operators
+        console.log(x==100);
+        console.log(x>y);
+        console.log(y<600);
+        console.log(y>=450);
+        console.log(d<=100);
+
+        //identity operators
+        var z="452";
+        console.log(y==z);
+        console.log(y===z);
+        console.log(y!==z);
+        if (y===z){
+            console.log("z is number");
+        }
+        else{
+            console.log("z is string");
+        };
+
+        
+        //conditional / logical operators
+        if (x>750 && y>750){
+            console.log("true statement");
+        }
+        else{
+            console.log("false statement");
+        }
+
+        if (x>750 || y>750){
+            console.log("true statement");
+        }
+        else{
+            console.log("false statement");
+        }
+
+        if (!(x>750 || y>750)){
+            console.log("true statement");
+        }
+        else{
+            console.log("false statement");
+        };
+
+        // Unary operators
+        var inc1=x++;
+        console.log(x,inc1);
+
+        var inc2=++inc1;
+        console.log(x,inc2);
+
+        var dec1=--y;
+        console.log(y, dec1);
+
+        var dec2=y--;
+        console.log(y,dec2);
+
+
+    </script>
+</body>
+</html>
